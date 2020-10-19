@@ -142,7 +142,7 @@
       "order": "FIRST_NAME"
     }
   ],
-  "BelongedMemberGroup": [
+  "MemberBelongedGroup": [
     {
       "id": 1,
       "member": {
