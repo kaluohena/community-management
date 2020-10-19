@@ -19,8 +19,16 @@
         {
           "id": 1,
           "memberGroup": {
+            "name": "a",
+            "about": "i am a potato"
+          }
+        },
+        {
+          "id": 2,
+          "memberGroup": {
             "id": 2,
-            "name": "b"
+            "name": "b",
+            "about": "i am b potato"
           }
         }
       ]
@@ -41,10 +49,19 @@
       "associationId": 321,
       "memberBelongedGroup": [
         {
-          "id": 1,
+          "id": 3,
           "memberGroup": {
             "id": 2,
-            "name": "b"
+            "name": "b",
+            "about": "i am b potato"
+          }
+        },
+        {
+          "id": 4,
+          "memberGroup": {
+            "id": 3,
+            "name": "c",
+            "about": "i am c potato"
           }
         }
       ]
@@ -74,7 +91,7 @@
       "associationId": 2,
       "memberBelongedGroup": [
         {
-          "id": 1,
+          "id": 2,
           "member": {
             "id": 1,
             "firstName": "ada",
@@ -82,7 +99,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 3,
           "member": {
             "id": 2,
             "firstName": "potato",
@@ -98,7 +115,7 @@
       "associationId": 2,
       "memberBelongedGroup": [
         {
-          "id": 2,
+          "id": 4,
           "member": {
             "id": 2,
             "firstName": "potato",
@@ -123,6 +140,60 @@
       "id": 3,
       "associationId": 2,
       "order": "FIRST_NAME"
+    }
+  ],
+  "BelongedMemberGroup": [
+    {
+      "id": 1,
+      "member": {
+        "id": 1,
+        "firstName": "ada",
+        "lastName": "hmm"
+      },
+      "memberGroup": {
+        "id": 1,
+        "name": "a",
+        "about": "i am a potato"
+      }
+    },
+    {
+      "id": 2,
+      "member": {
+        "id": 1,
+        "firstName": "ada",
+        "lastName": "hmm"
+      },
+      "memberGroup": {
+        "id": 2,
+        "name": "b",
+        "about": "i am b potato"
+      }
+    },
+    {
+      "id": 3,
+      "member": {
+        "id": 2,
+        "firstName": "potato",
+        "lastName": "sweet"
+      },
+      "memberGroup": {
+        "id": 2,
+        "name": "b",
+        "about": "i am b potato"
+      }
+    },
+    {
+      "id": 4,
+      "member": {
+        "id": 2,
+        "firstName": "potato",
+        "lastName": "sweet"
+      },
+      "memberGroup": {
+        "id": 3,
+        "name": "c",
+        "about": "i am c potato"
+      }
     }
   ]
 }
