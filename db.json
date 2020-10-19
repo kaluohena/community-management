@@ -56,11 +56,14 @@
       "name": "a",
       "about": "i am a potato",
       "associationId": 1,
-      "Member": [
+      "memberBelongedGroup": [
         {
           "id": 1,
-          "firstName": "ada",
-          "lastName": "hmm"
+          "member": {
+            "id": 1,
+            "firstName": "ada",
+            "lastName": "hmm"
+          }
         }
       ]
     },
@@ -69,16 +72,22 @@
       "name": "b",
       "about": "i am b potato",
       "associationId": 2,
-      "Member": [
+      "memberBelongedGroup": [
         {
           "id": 1,
-          "firstName": "ada",
-          "lastName": "hmm"
+          "member": {
+            "id": 1,
+            "firstName": "ada",
+            "lastName": "hmm"
+          }
         },
         {
           "id": 2,
-          "firstName": "potato",
-          "lastName": "sweet"
+          "member": {
+            "id": 2,
+            "firstName": "potato",
+            "lastName": "sweet"
+          }
         }
       ]
     },
@@ -87,11 +96,14 @@
       "name": "c",
       "about": "i am c potato",
       "associationId": 2,
-      "Member": [
+      "memberBelongedGroup": [
         {
           "id": 2,
-          "firstName": "potato",
-          "lastName": "sweet"
+          "member": {
+            "id": 2,
+            "firstName": "potato",
+            "lastName": "sweet"
+          }
         }
       ]
     }
