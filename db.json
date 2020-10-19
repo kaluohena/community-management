@@ -1,0 +1,35 @@
+{
+  "Member": [
+    {
+      "id": 1,
+      "firstName": "ada",
+      "lastName": "hmm",
+      "address": "abc",
+      "email": "abc@email.com",
+      "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400",
+      "prefix": "a",
+      "gender": "FEMALE",
+      "birthday": "20/20/2020",
+      "about": "i love eating potatos.",
+      "password": "noPassword",
+      "contact": 12345678,
+      "role": "USER",
+      "associationId": 123
+    },
+    {
+      "id": 2,
+      "firstName": "potato",
+      "lastName": "sweet",
+      "email": "def@email.com",
+      "profile": "testtitile",
+      "prefix": "b",
+      "gender": "OTHER",
+      "birthday": "1/1/0000",
+      "about": "pls don't eat me.",
+      "password": "yesPassword",
+      "contact": 87654321,
+      "role": "ADMIN",
+      "associationId": 321
+    }
+  ]
+}
