@@ -14,7 +14,16 @@
       "password": "noPassword",
       "contact": 12345678,
       "role": "USER",
-      "associationId": 123
+      "associationId": 123,
+      "memberBelongedGroup": [
+        {
+          "id": 1,
+          "memberGroup": {
+            "id": 2,
+            "name": "b"
+          }
+        }
+      ]
     },
     {
       "id": 2,
@@ -29,7 +38,79 @@
       "password": "yesPassword",
       "contact": 87654321,
       "role": "ADMIN",
-      "associationId": 321
+      "associationId": 321,
+      "memberBelongedGroup": [
+        {
+          "id": 1,
+          "memberGroup": {
+            "id": 2,
+            "name": "b"
+          }
+        }
+      ]
+    }
+  ],
+  "MemberGroup": [
+    {
+      "id": 1,
+      "name": "a",
+      "about": "i am a potato",
+      "associationId": 1,
+      "Member": [
+        {
+          "id": 1,
+          "firstName": "ada",
+          "lastName": "hmm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "b",
+      "about": "i am b potato",
+      "associationId": 2,
+      "Member": [
+        {
+          "id": 1,
+          "firstName": "ada",
+          "lastName": "hmm"
+        },
+        {
+          "id": 2,
+          "firstName": "potato",
+          "lastName": "sweet"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "c",
+      "about": "i am c potato",
+      "associationId": 2,
+      "Member": [
+        {
+          "id": 2,
+          "firstName": "potato",
+          "lastName": "sweet"
+        }
+      ]
+    }
+  ],
+  "MemberSetting": [
+    {
+      "id": 1,
+      "associationId": 1,
+      "order": "FIRST_NAME"
+    },
+    {
+      "id": 2,
+      "associationId": 2,
+      "order": "LAST_NAME"
+    },
+    {
+      "id": 3,
+      "associationId": 2,
+      "order": "FIRST_NAME"
     }
   ]
 }
