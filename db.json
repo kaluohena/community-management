@@ -175,64 +175,12 @@
       "order": "FIRST_NAME"
     }
   ],
-  "MemberBelongedGroup": [
+  "Event": [
     {
       "id": 1,
-      "member": {
-        "id": 1,
-        "firstName": "ada",
-        "lastName": "hmm"
-      },
-      "memberGroup": {
-        "id": 1,
-        "name": "a",
-        "about": "i am a potato"
-      }
-    },
-    {
-      "id": 2,
-      "member": {
-        "id": 1,
-        "firstName": "ada",
-        "lastName": "hmm"
-      },
-      "memberGroup": {
-        "id": 2,
-        "name": "b",
-        "about": "i am b potato"
-      }
-    },
-    {
-      "id": 3,
-      "member": {
-        "id": 2,
-        "firstName": "potato",
-        "lastName": "sweet"
-      },
-      "memberGroup": {
-        "id": 2,
-        "name": "b",
-        "about": "i am b potato"
-      }
-    },
-    {
-      "id": 4,
-      "member": {
-        "id": 2,
-        "firstName": "potato",
-        "lastName": "sweet"
-      },
-      "memberGroup": {
-        "id": 3,
-        "name": "c",
-        "about": "i am c potato"
-      }
+      "name": "Happy Friday",
+      "startDate": "2020-10-23T16:00:00+08:00",
+      "endDate": "2020-10-23T19:00:00+08:00"
     }
-  ],
-  "Event": {
-    "id": 1,
-    "name": "Happy Friday",
-    "startDate": "2020-10-23T16:00:00+08:00",
-    "endDate": "2020-10-23T19:00:00+08:00"
-  }
+  ]
 }
